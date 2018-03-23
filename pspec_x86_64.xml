@@ -1,0 +1,53 @@
+<PISI>
+    <Source>
+        <Name>ruby-netrc</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - netrc</Summary>
+        <Description xml:lang="en">This library can read and update netrc files, preserving formatting including comments and whitespace.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-netrc</Name>
+        <Summary xml:lang="en">RubyGem - netrc</Summary>
+        <Description xml:lang="en">This library can read and update netrc files, preserving formatting including comments and whitespace.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/Readme.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/changelog.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/default_only.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/login.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/newlineless.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/password.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/permissive.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/sample.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/sample_multi.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/sample_multi_with_default.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/data/sample_with_default.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/lib/netrc.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/test/test_lex.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/test/test_netrc.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/netrc-0.11.0/test/test_parse.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/netrc-0.11.0.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>0.11.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
