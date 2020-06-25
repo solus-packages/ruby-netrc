@@ -1,6 +1,6 @@
 name       : ruby-netrc
 version    : 0.11.0
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/netrc-0.11.0.gem : de1ce33da8c99ab1d97871726cba75151113f117146becbe45aa85cb3dabee3f
 license    : MIT
@@ -9,8 +9,9 @@ summary    : RubyGem - netrc
 description: |
     This library can read and update netrc files, preserving formatting including comments and whitespace.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}

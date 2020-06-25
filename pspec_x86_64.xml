@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-netrc</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,35 +19,32 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/LICENSE.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/Readme.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/changelog.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/default_only.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/login.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/newlineless.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/password.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/permissive.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/sample.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/sample_multi.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/sample_multi_with_default.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/data/sample_with_default.netrc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/lib/netrc.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/test/test_lex.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/test/test_netrc.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/netrc-0.11.0/test/test_parse.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/netrc-0.11.0.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/Readme.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/changelog.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/default_only.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/login.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/newlineless.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/password.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/permissive.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/sample.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/sample_multi.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/sample_multi_with_default.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/data/sample_with_default.netrc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/lib/netrc.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/test/test_lex.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/test/test_netrc.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/netrc-0.11.0/test/test_parse.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/netrc-0.11.0.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
+        <Update release="4">
+            <Date>2020-06-26</Date>
             <Version>0.11.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
